@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Password Generator</h1>
+    <div class="password-div">
+      <input type="text" id="display-password" disabled />
+      <button class="copy">
+        <img
+          src="https://www.freeiconspng.com/thumbs/copy-icon/copy-icon-25.png"
+          alt="copy_im.png"
+        />
+      </button>
+    </div>
+    <div class="password-input">
+      <p>Select Password length<strong>(**8-50 characters**)</strong></p>
+      <input type="number" name="password-length" id="password-length" />
+    </div>
+    <div class="checkboxes">
+      <div class="item">
+        <input type="checkbox" name="uppercase" id="uppercase" />
+        <label for="uppercase">Include upper case</label>
+      </div>
+
+      <div class="item">
+        <input type="checkbox" name="lowercase" id="lowercase" />
+        <label for="lowercase">Include lower case</label>
+      </div>
+
+      <div class="item">
+        <input type="checkbox" name="numbers" id="numbers" />
+        <label for="numbers">Include numbers</label>
+      </div>
+      <div class="item">
+        <input type="checkbox" name="symbols" id="symbols" />
+        <label for="symbols">Include symbols</label>
+      </div>
+    </div>
+    <div class="button-div">
+      <button id="generate-password">Generate Password</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

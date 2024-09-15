@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.password-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.password-input {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+button img {
+  background-color: white;
+  width: 20px;
+  height: 80%;
+}
+
+.copy {
+  background-color: #116bb4;
+  border: none;
+  border-radius: 5px;
+  padding: 3px 6px;
+}
+
+.copy:hover {
+  background-color: green;
+}
+
+#display-password {
+  width: 100%;
+  padding: 5px;
+}
+
+.checkboxes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2px;
+}
+
+.button-div {
+  width: 100%;
+  padding: 10px;
+}
+
+#generate-password {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #116bb4;
+  color: white;
+}
+
+#generate-password:hover {
+  background-color: green;
+}
